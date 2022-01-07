@@ -1,0 +1,92 @@
+dependancies/imports npm install...
+
+*MYSQL
+>const mysql = require("mysql");
+
+* BLUEBIRD
+>const Promise = require("bluebird");
+ Promise.promisifyAll(require("mysql/lib/Connection").prototype);
+ 
+*CORS
+
+*EXPRESS
+
+*NODEMON
+>"scripts": {
+    "start": "nodemon src/main.js",
+	
+*BOOTSTRAP 
+
+
+for react  
+include this in index
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+*AXIOS ???
+import axios from "axios";
+	
+	
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------	
+----------------------------------------------------------------------------------
+database:- create database use database create table 
+in case of error:-
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'cdac';
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------	
+----------------------------------------------------------------------------------
+backend
+------------------------------------------------------------------------
+import mysql and bluebird
+*(host,user(root),password(cdac),database)
+
+
+for get() method
+createConnection(*),connectAsync,variable=queryAsync,endAsync, return variable
+------------------------------------------------------------------------
+for add() method 
+createConnection(*),connectAsync,queryAsync,endAsync
+
+------------------------------------------------------------------------
+to export
+
+module.exports = {methods}
+
+
+000000000000000000000000000000000000000000000000000000000000000000000000
+main.js 
+const express = require("express");
+const app = express();
+app.use(express.json());
+
+const cors = require("cors");
+app.use(cors());
+
+import functions:- {functionNames,}=require("./filename")
+
+app.get
+app.post
+app.listen
+
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------	
+----------------------------------------------------------------------------------
+front end
+npx create-react-app my-app
+npm install react-bootstrap bootstrap@5.1.3
+
+for react 
+npm install react-bootstrap bootstrap@5.1.3
+ include this in index
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+*npm install AXIOS
+
+import axios from "axios";
+
+
+
+**********************************************************************************
+
+Git-hub link :-
+https://github.com/
